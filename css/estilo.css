@@ -1,0 +1,121 @@
+a{
+  text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+@import url('https://www.fontspace.com/moonkids-ext-bd-font-f92027');
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: '';
+}
+    :root {
+        --primary: #F553BE;
+        --secondary: #eca3d6;
+        --third: rgb(236, 116, 146);
+        --black: #000;
+        --white: #fff;
+        --fourth: rgb(255, 125, 157);
+    }
+    
+    header {
+        display: flex;
+        border-bottom: 0.5rem solid var(--fourth);
+        background-color: var(--fourth);
+        align-items: center;
+    }
+   
+    
+    header h1{
+      display: flex;
+      font-size: 2rem;
+      font-family: 'Chewy', cursive;
+      text-align: center;
+      color: var(--white);
+    }
+    header picture img{
+        height: 5.9rem;
+        
+      
+    }
+    header nav {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    header nav ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+    header nav ul li {
+        margin: 0 1.5rem;
+          }
+    header nav ul li a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: var(--white);
+    }
+    /*Listar*/
+    
+    main section.list {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 1rem;
+    }
+    main section.list aside{
+      background-color: var(--third);
+      border-radius: 1rem;
+      padding: 1rem;
+      line-height: 2rem;
+    
+    }
+    main section.list aside h3 strong{
+      font-weight: bold;
+    }
+    main {
+    min-height: 70vh;
+    }
+    
+    main picture img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    main div picture img {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+  }
+    main h1 {
+        font-size: 25px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    main section{
+    display: flex ;
+    max-width: 1090px;
+    margin: 0;
+    }
+    
+
+  footer {
+    background-color: var(--fourth);
+    height: 3rem;
+    width: 1000rem;
+    position: fixed;
+    bottom: 0;
+  }
+
+
+  footer img{
+    height: 50px;
+    width: 50px;
+    padding: 0.4rem;
+  
+  }

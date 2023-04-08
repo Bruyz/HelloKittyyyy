@@ -1,0 +1,32 @@
+/*Responsivo */
+@media(max-width: 1010px){
+    main > section.list{
+      grid-template-columns: auto auto;
+    }
+  }
+  @media (max-width: 768px){
+   header nav{
+    height: 1.7rem;
+    
+  
+  }
+       header{
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+       }
+    main>section.list {
+      grid-template-columns: auto;
+    }
+    main>section{
+      font-size: 1rem;
+    }
+    footer{
+      height: 2.5rem;
+    }
+  }
+  @media (max-width: 500px){
+    main>section.list {
+      grid-template-columns: auto;
+    }
+  }
+  
